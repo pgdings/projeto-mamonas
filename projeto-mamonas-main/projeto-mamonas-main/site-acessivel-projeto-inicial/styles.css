@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
+
 :root {
-    --laranja-claro: #850d0d;
+    --laranja-claro: #0f583a;
 }
 
 body {
@@ -107,12 +108,12 @@ h2 {
 }
 
 #galeria {
-    background-color: #FAF4F4;
+    background-color: #fdffdc;
 
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
@@ -125,7 +126,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #fdff7a;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -136,12 +137,12 @@ h2 {
 }
 
 .formulario button {
-    background-color: #d60c0c;
+    background-color: #812f16;
     border: none;
     font-weight: bold;
 }
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #ffffff;
 }
